@@ -1,10 +1,10 @@
 export default function Header() {
   return (
     <header>
-      {/* BUG (issue #2): avatar image is missing alt text */}
-      <img className="avatar" src="/avatar.png" />
-      {/* BUG (issue #1): "Wecome" should be "Welcome" */}
-      <h1>Wecome to DevLinks</h1>
+      {/* BUG (issue #6): quote icon image is missing alt text */}
+      <img className="mark" src="/quote.png" />
+      {/* BUG (issue #1): "Qoute" should be "Quote" */}
+      <h1>Qoute of the moment</h1>
     </header>
   )
 }

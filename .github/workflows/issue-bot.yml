@@ -1,4 +1,4 @@
-name: DevLinks Issue Bot
+name: QuoteBox Issue Bot
 on:
   issues:
     types: [opened]
